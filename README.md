@@ -6,4 +6,4 @@
 - Doh DNS can be replaced with your favorite
 
 ## future:
--Different Doh DNS servers are used depending on the country
+- Different Doh DNS servers are used depending on the country
