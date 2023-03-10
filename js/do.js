@@ -8,8 +8,8 @@ async function handleRequest(request) {
   if (url.pathname === '/abc') {
     const dohUrl = 'https://1.1.1.1/dns-query'
     const headers = new Headers(request.headers)
-    headers.set('Host', 'm.baidu.com')//可以不要
-    headers.set('Referer', 'no-referrer')//可以不要
+    headers.set('Host', 'm.baidu.com')//可以不要 can be deleted without
+    headers.set('Referer', 'no-referrer')//可以不要 can be deleted without
     headers.set('Content-Type', 'application/dns-message')
     const dohRequest = new Request(dohUrl, {
       method: request.method,
