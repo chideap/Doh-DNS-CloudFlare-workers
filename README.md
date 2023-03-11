@@ -1,4 +1,4 @@
-# Doh-DNS-CloudFlare-workers
+# Doh-DNS-CloudFlare-workers [中文](https://github.com/chideap/Doh-DNS-CloudFlare-workers/blob/main/js/README_cn.md)
 
 ## Easy self-build deployment
 
